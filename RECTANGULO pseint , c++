@@ -1,0 +1,37 @@
+PSEINT:
+Proceso rectangulo
+	leer B , H 
+	escribir "ingrese B"
+	leer B;
+	escribir "ingrese H"
+	leer H;
+	A <- (B*H)/2
+	escribir "el area es" ,a
+FinProceso
+
+
+
+
+C++:
+// rectangulo.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include<iostream>
+#include "conio.h"
+
+using namespace std;
+
+int main()
+{
+	float A,B,H
+    cout << "ingrese base:";
+	cin >> A;
+	cout << "ingrese altura:";
+	cin >> H;
+
+	A = (B*H)
+    cout<< "el area es:" << A;
+	gecth();
+}
+
