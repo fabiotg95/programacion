@@ -1,0 +1,44 @@
+PSEINT:
+Proceso cuadrado
+	leer L , L , L , L
+	escribir ("ingrese lado 1");
+	leer L;
+	escribir ("ingrese lado 2");
+	leer L;
+	escribir ("ingrese lado 3");
+	leer L;
+	escribir ("ingrese lado 4");
+	leer L;
+	A <- L*L*L*L 
+	escribir "el area es" , a
+FinProceso
+
+
+
+C++:
+
+// cuadrado.cpp : Defines the entry point for the console application.
+//
+
+ #include "stdafx.h"
+ #include <iostream>
+ #include "conio.h"
+ 
+ using namespace std.
+ 
+ void main()
+{
+    float L,L,L,L
+   cout <<"ingrese lado 1:";
+   cin >>L;
+   cout <<"ingrese lado 2:";
+   cin >>L;
+   cout <<"ingrese lado 3:";
+   cin> >L;
+   cout <<"ingrese lado 4:";
+   A  <- L*L*L*L
+   cout <<"el area es:"<<A;
+    
+   getch ();
+}
+
