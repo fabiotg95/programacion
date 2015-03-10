@@ -1,0 +1,51 @@
+PSEINT:
+Proceso impuesto
+sueldo=0
+total=0
+AFP=0
+ARS=0
+Imprent=0
+ESCRIBIR "digite su sueldo"
+LEER sueldo
+SI sueldo > 33000 ENTONCES
+Imprent <- sueldo *0.15
+total=sueldo-imprent
+ESCRIBIR "su sueldo es de", sueldo
+ESCRIBIR "su impuesto de renta es de",Imprent
+ESCRIBIR " el dinero que le queda es de", total
+AFP= sueldo * 0.028
+ARS= sueldo * 0.018
+total= sueldo-(AFT+ARS)
+ESCRIBIR "su sueldo es de ", sueldo
+ESCRIBIR "su impuesto AFT es de",AFT
+ESCRIBIR " su impuesto ARS es", ARS
+ESCRIBIR "el dinero que le queda es", total
+FinSi
+FinProceso
+
+
+
+C++:
+// impuesto.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include<iostream>
+#include "conio.h"
+
+int main()
+{
+	float sueldo,total,afp,ars,imprent
+	cout <<"digite su sueldo:"
+	cin >> sueldo;
+	cout <<"su sueldo es de:", sueldo
+  cout<<"su impuesto de renta es de:", imprent
+  cout<<"el dineor que le queda es:",total
+  cout<<"su sueldo es de:", sueldo
+  cout<<"su impuesto aft es de:", aft
+  cout<<"su impuesto ARS es", ARS
+  cout<<"el dinero que le queda es", total
+	getch();
+}
+
+
